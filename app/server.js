@@ -3,9 +3,9 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import mongoose from 'mongoose';
 import Stripe from 'stripe';
-import userRoutes from './routes/userRoutes.js'
-import productRoutes from '../backend/routes/productRoutes.js'
-import adminRoutes from '../backend/routes/adminRoutes.js'
+import userRoutes from '../routes/userRoutes.js'
+import productRoutes from '../routes/productRoutes.js'
+import adminRoutes from '../routes/adminRoutes.js'
 dotenv.config()
 
 const app = express()
